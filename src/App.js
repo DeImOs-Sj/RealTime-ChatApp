@@ -9,6 +9,7 @@ function App() {
   const [userName, ] = useState("");
   const handleSubmit = (message) => {
     console.log(`[${userName}]: ${message}`);
+    
   };
 
 
@@ -22,7 +23,7 @@ function App() {
   return (
     <div>
       {loggedIn ? <Chatroom username={username} /> : <Login onLogin={handleLogin} />}
-      <Chatroom name={username} handleSubmit={handleSubmit} />
+      {/* <Chatroom name={username} handleSubmit={handleSubmit} /> */}
 
     </div>
     
