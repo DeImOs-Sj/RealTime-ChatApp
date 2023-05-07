@@ -6,11 +6,11 @@ import Chatroom from './components/Chatroom'
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
   const [username, setUsername] = useState('');
-  const [userName, ] = useState("");
-  const handleSubmit = (message) => {
-    console.log(`[${userName}]: ${message}`);
+  // const [userName, ] = useState("");
+  // const handleSubmit = (message) => {
+  //   console.log(`[${userName}]: ${message}`);
     
-  };
+  // };
 
 
 
